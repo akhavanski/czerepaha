@@ -2,14 +2,16 @@ title: Czerepaha
 email: your-email@example.com
 description: >-
   A Jekyll site using the Minima theme.
-baseurl: ""
+baseurl: "/czerepaha"
 url: "https://akhavanski.github.io"
 
 # Build settings
-theme: minima
+# For GitHub Pages, use remote_theme instead of theme
+remote_theme: jekyll/minima@v2.5.1
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Minima theme settings
 minima:
