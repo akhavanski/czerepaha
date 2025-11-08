@@ -16,7 +16,7 @@ plugins:
 minima:
   skin: classic
   social_links:
-    - { platform: github, user_url: "https://github.com/akhavanski/czerepaha" }
+    - { platform: telegram, user_url: "https://t.me/Czerepaha" }
 
 # Exclude from processing
 exclude:
@@ -30,4 +30,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
 
