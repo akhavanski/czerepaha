@@ -4,3 +4,16 @@
 
 @import "minima";
 
+// Черные ссылки на главной странице в списке постов
+.home .post-list .post-link {
+  color: #000000;
+  
+  &:visited {
+    color: #000000;
+  }
+  
+  &:hover {
+    color: #333333;
+  }
+}
+
