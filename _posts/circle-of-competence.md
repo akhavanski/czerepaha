@@ -2,7 +2,7 @@
 layout: post
 title:  "Круг компетенций"
 date:   2025-11-08 12:00:00 +0000
-categories: ментальные-модели
+categories: mental-models
 description: "Понимать в чем мы сильны, а в чем мы думаем, что сильны. Размер круга не имеет значение — важно знать его границы."
 image: /assets/circle.png
 ---
