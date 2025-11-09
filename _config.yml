@@ -18,6 +18,11 @@ minima:
   social_links:
     - { platform: telegram, user_url: "https://t.me/Czerepaha" }
 
+# Header pages (exclude index.md)
+header_pages:
+  - mental-models.md
+  - cognitive-bias.md
+
 # Exclude from processing
 exclude:
   - .sass-cache/
