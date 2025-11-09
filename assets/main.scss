@@ -3,3 +3,9 @@
 ---
 
 @import "minima";
+
+// Выравнивание текста по ширине
+.post-content,
+.page-content {
+  text-align: justify;
+}
