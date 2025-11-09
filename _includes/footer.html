@@ -5,20 +5,25 @@
     <div style="text-align: center;">
       <p>{{- site.description | escape -}}</p>
       
-      {%- if site.minima.social_links -%}
-        {%- for item in site.minima.social_links -%}
-          {%- if item.platform == 'telegram' -%}
-            <p>
-              <a href="{{ item.user_url }}" rel="me" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none;">
+      <div style="display: flex; justify-content: center; gap: 20px; margin: 15px 0;">
+        {%- if site.minima.social_links -%}
+          {%- for item in site.minima.social_links -%}
+            {%- if item.platform == 'telegram' -%}
+              <a href="{{ item.user_url }}" rel="me" title="Telegram" style="display: inline-flex; align-items: center; text-decoration: none; color: inherit;">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"/>
                 </svg>
-                <span>Telegram</span>
               </a>
-            </p>
-          {%- endif -%}
-        {%- endfor -%}
-      {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+        
+        <a href="{{ "/feed.xml" | relative_url }}" title="Подписаться по RSS" style="display: inline-flex; align-items: center; text-decoration: none; color: inherit;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/>
+          </svg>
+        </a>
+      </div>
     </div>
   </div>
 
