@@ -17,9 +17,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
 
-# Permalink structure (remove date from post URLs)
-permalink: /:title/
-
 # Minima theme settings
 minima:
   skin: classic
