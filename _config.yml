@@ -4,6 +4,11 @@ description: >-
 baseurl: "/czerepaha"
 url: "https://akhavanski.github.io"
 
+# Social/SEO settings for Open Graph
+author: Черепаха и Слоны
+twitter:
+  card: summary_large_image
+
 # Build settings
 # For GitHub Pages, use remote_theme instead of theme
 remote_theme: jekyll/minima@v2.5.1
